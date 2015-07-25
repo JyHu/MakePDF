@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3498A91915D44D002A837F /* HJYMakePdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3498A81915D44D002A837F /* HJYMakePdf.m */; };
+		0A3498AC1915E241002A837F /* MakePdfFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3498AB1915E241002A837F /* MakePdfFile.m */; };
+		0A3D0925191782780006E10F /* HJYPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D0923191782780006E10F /* HJYPDFViewController.m */; };
+		0A3D0926191782780006E10F /* HJYPDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3D0924191782780006E10F /* HJYPDFViewController.xib */; };
+		A8402785191096E50062C908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8402784191096E50062C908 /* Foundation.framework */; };
+		A8402787191096E50062C908 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8402786191096E50062C908 /* CoreGraphics.framework */; };
+		A8402789191096E50062C908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8402788191096E50062C908 /* UIKit.framework */; };
+		A840278F191096E50062C908 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A840278D191096E50062C908 /* InfoPlist.strings */; };
+		A8402791191096E50062C908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8402790191096E50062C908 /* main.m */; };
+		A8402795191096E50062C908 /* HJYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8402794191096E50062C908 /* HJYAppDelegate.m */; };
+		A8402797191096E50062C908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8402796191096E50062C908 /* Images.xcassets */; };
+		A840279E191096E50062C908 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A840279D191096E50062C908 /* XCTest.framework */; };
+		A840279F191096E50062C908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8402784191096E50062C908 /* Foundation.framework */; };
+		A84027A0191096E50062C908 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8402788191096E50062C908 /* UIKit.framework */; };
+		A84027A8191096E50062C908 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A84027A6191096E50062C908 /* InfoPlist.strings */; };
+		A84027AA191096E50062C908 /* MakePdfFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A84027A9191096E50062C908 /* MakePdfFileTests.m */; };
+		A84027B61910971A0062C908 /* HJYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A84027B41910971A0062C908 /* HJYMainViewController.m */; };
+		A84027B71910971A0062C908 /* HJYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84027B51910971A0062C908 /* HJYMainViewController.xib */; };
+		A84027B919109EB20062C908 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84027B819109EB20062C908 /* CoreText.framework */; };
+		A84028031910F2120062C908 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84028021910F2120062C908 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A84027A1191096E50062C908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8402779191096E50062C908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8402780191096E50062C908;
+			remoteInfo = MakePdfFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3498A71915D44D002A837F /* HJYMakePdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMakePdf.h; sourceTree = "<group>"; };
+		0A3498A81915D44D002A837F /* HJYMakePdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYMakePdf.m; sourceTree = "<group>"; };
+		0A3498AA1915E241002A837F /* MakePdfFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePdfFile.h; sourceTree = "<group>"; };
+		0A3498AB1915E241002A837F /* MakePdfFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePdfFile.m; sourceTree = "<group>"; };
+		0A3D0922191782780006E10F /* HJYPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYPDFViewController.h; sourceTree = "<group>"; };
+		0A3D0923191782780006E10F /* HJYPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYPDFViewController.m; sourceTree = "<group>"; };
+		0A3D0924191782780006E10F /* HJYPDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJYPDFViewController.xib; sourceTree = "<group>"; };
+		A8402781191096E50062C908 /* MakePdfFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakePdfFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8402784191096E50062C908 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8402786191096E50062C908 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8402788191096E50062C908 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A840278C191096E50062C908 /* MakePdfFile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakePdfFile-Info.plist"; sourceTree = "<group>"; };
+		A840278E191096E50062C908 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8402790191096E50062C908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8402792191096E50062C908 /* MakePdfFile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakePdfFile-Prefix.pch"; sourceTree = "<group>"; };
+		A8402793191096E50062C908 /* HJYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJYAppDelegate.h; sourceTree = "<group>"; };
+		A8402794191096E50062C908 /* HJYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJYAppDelegate.m; sourceTree = "<group>"; };
+		A8402796191096E50062C908 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A840279C191096E50062C908 /* MakePdfFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakePdfFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A840279D191096E50062C908 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A84027A5191096E50062C908 /* MakePdfFileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakePdfFileTests-Info.plist"; sourceTree = "<group>"; };
+		A84027A7191096E50062C908 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A84027A9191096E50062C908 /* MakePdfFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakePdfFileTests.m; sourceTree = "<group>"; };
+		A84027B31910971A0062C908 /* HJYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMainViewController.h; sourceTree = "<group>"; };
+		A84027B41910971A0062C908 /* HJYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYMainViewController.m; sourceTree = "<group>"; };
+		A84027B51910971A0062C908 /* HJYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJYMainViewController.xib; sourceTree = "<group>"; };
+		A84027B819109EB20062C908 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A84028021910F2120062C908 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A840277E191096E50062C908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84028031910F2120062C908 /* MessageUI.framework in Frameworks */,
+				A84027B919109EB20062C908 /* CoreText.framework in Frameworks */,
+				A8402787191096E50062C908 /* CoreGraphics.framework in Frameworks */,
+				A8402789191096E50062C908 /* UIKit.framework in Frameworks */,
+				A8402785191096E50062C908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8402799191096E50062C908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A840279E191096E50062C908 /* XCTest.framework in Frameworks */,
+				A84027A0191096E50062C908 /* UIKit.framework in Frameworks */,
+				A840279F191096E50062C908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8402778191096E50062C908 = {
+			isa = PBXGroup;
+			children = (
+				A840278A191096E50062C908 /* MakePdfFile */,
+				A84027A3191096E50062C908 /* MakePdfFileTests */,
+				A8402783191096E50062C908 /* Frameworks */,
+				A8402782191096E50062C908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8402782191096E50062C908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8402781191096E50062C908 /* MakePdfFile.app */,
+				A840279C191096E50062C908 /* MakePdfFileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8402783191096E50062C908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84028021910F2120062C908 /* MessageUI.framework */,
+				A84027B819109EB20062C908 /* CoreText.framework */,
+				A8402784191096E50062C908 /* Foundation.framework */,
+				A8402786191096E50062C908 /* CoreGraphics.framework */,
+				A8402788191096E50062C908 /* UIKit.framework */,
+				A840279D191096E50062C908 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A840278A191096E50062C908 /* MakePdfFile */ = {
+			isa = PBXGroup;
+			children = (
+				A8402793191096E50062C908 /* HJYAppDelegate.h */,
+				A8402794191096E50062C908 /* HJYAppDelegate.m */,
+				A84027B31910971A0062C908 /* HJYMainViewController.h */,
+				A84027B41910971A0062C908 /* HJYMainViewController.m */,
+				A84027B51910971A0062C908 /* HJYMainViewController.xib */,
+				0A3D0922191782780006E10F /* HJYPDFViewController.h */,
+				0A3D0923191782780006E10F /* HJYPDFViewController.m */,
+				0A3D0924191782780006E10F /* HJYPDFViewController.xib */,
+				0A3498AA1915E241002A837F /* MakePdfFile.h */,
+				0A3498AB1915E241002A837F /* MakePdfFile.m */,
+				0A3498A71915D44D002A837F /* HJYMakePdf.h */,
+				0A3498A81915D44D002A837F /* HJYMakePdf.m */,
+				A8402796191096E50062C908 /* Images.xcassets */,
+				A840278B191096E50062C908 /* Supporting Files */,
+			);
+			path = MakePdfFile;
+			sourceTree = "<group>";
+		};
+		A840278B191096E50062C908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A840278C191096E50062C908 /* MakePdfFile-Info.plist */,
+				A840278D191096E50062C908 /* InfoPlist.strings */,
+				A8402790191096E50062C908 /* main.m */,
+				A8402792191096E50062C908 /* MakePdfFile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A84027A3191096E50062C908 /* MakePdfFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				A84027A9191096E50062C908 /* MakePdfFileTests.m */,
+				A84027A4191096E50062C908 /* Supporting Files */,
+			);
+			path = MakePdfFileTests;
+			sourceTree = "<group>";
+		};
+		A84027A4191096E50062C908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84027A5191096E50062C908 /* MakePdfFileTests-Info.plist */,
+				A84027A6191096E50062C908 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8402780191096E50062C908 /* MakePdfFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84027AD191096E50062C908 /* Build configuration list for PBXNativeTarget "MakePdfFile" */;
+			buildPhases = (
+				A840277D191096E50062C908 /* Sources */,
+				A840277E191096E50062C908 /* Frameworks */,
+				A840277F191096E50062C908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakePdfFile;
+			productName = MakePdfFile;
+			productReference = A8402781191096E50062C908 /* MakePdfFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A840279B191096E50062C908 /* MakePdfFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84027B0191096E50062C908 /* Build configuration list for PBXNativeTarget "MakePdfFileTests" */;
+			buildPhases = (
+				A8402798191096E50062C908 /* Sources */,
+				A8402799191096E50062C908 /* Frameworks */,
+				A840279A191096E50062C908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84027A2191096E50062C908 /* PBXTargetDependency */,
+			);
+			name = MakePdfFileTests;
+			productName = MakePdfFileTests;
+			productReference = A840279C191096E50062C908 /* MakePdfFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8402779191096E50062C908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HJY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ikangtai_com;
+				TargetAttributes = {
+					A840279B191096E50062C908 = {
+						TestTargetID = A8402780191096E50062C908;
+					};
+				};
+			};
+			buildConfigurationList = A840277C191096E50062C908 /* Build configuration list for PBXProject "MakePdfFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8402778191096E50062C908;
+			productRefGroup = A8402782191096E50062C908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8402780191096E50062C908 /* MakePdfFile */,
+				A840279B191096E50062C908 /* MakePdfFileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A840277F191096E50062C908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3D0926191782780006E10F /* HJYPDFViewController.xib in Resources */,
+				A840278F191096E50062C908 /* InfoPlist.strings in Resources */,
+				A84027B71910971A0062C908 /* HJYMainViewController.xib in Resources */,
+				A8402797191096E50062C908 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A840279A191096E50062C908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84027A8191096E50062C908 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A840277D191096E50062C908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8402795191096E50062C908 /* HJYAppDelegate.m in Sources */,
+				0A3D0925191782780006E10F /* HJYPDFViewController.m in Sources */,
+				0A3498AC1915E241002A837F /* MakePdfFile.m in Sources */,
+				A8402791191096E50062C908 /* main.m in Sources */,
+				0A3498A91915D44D002A837F /* HJYMakePdf.m in Sources */,
+				A84027B61910971A0062C908 /* HJYMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8402798191096E50062C908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84027AA191096E50062C908 /* MakePdfFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84027A2191096E50062C908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8402780191096E50062C908 /* MakePdfFile */;
+			targetProxy = A84027A1191096E50062C908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A840278D191096E50062C908 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A840278E191096E50062C908 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A84027A6191096E50062C908 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84027A7191096E50062C908 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84027AB191096E50062C908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A84027AC191096E50062C908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84027AE191096E50062C908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePdfFile/MakePdfFile-Prefix.pch";
+				INFOPLIST_FILE = "MakePdfFile/MakePdfFile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A84027AF191096E50062C908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePdfFile/MakePdfFile-Prefix.pch";
+				INFOPLIST_FILE = "MakePdfFile/MakePdfFile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A84027B1191096E50062C908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakePdfFile.app/MakePdfFile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePdfFile/MakePdfFile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MakePdfFileTests/MakePdfFileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A84027B2191096E50062C908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MakePdfFile.app/MakePdfFile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePdfFile/MakePdfFile-Prefix.pch";
+				INFOPLIST_FILE = "MakePdfFileTests/MakePdfFileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A840277C191096E50062C908 /* Build configuration list for PBXProject "MakePdfFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84027AB191096E50062C908 /* Debug */,
+				A84027AC191096E50062C908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84027AD191096E50062C908 /* Build configuration list for PBXNativeTarget "MakePdfFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84027AE191096E50062C908 /* Debug */,
+				A84027AF191096E50062C908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84027B0191096E50062C908 /* Build configuration list for PBXNativeTarget "MakePdfFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84027B1191096E50062C908 /* Debug */,
+				A84027B2191096E50062C908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8402779191096E50062C908 /* Project object */;
+}
